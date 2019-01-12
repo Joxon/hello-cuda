@@ -1,0 +1,38 @@
+Missing recommended library: libGLU.so
+Missing recommended library: libX11.so
+Missing recommended library: libXi.so
+Missing recommended library: libXmu.so
+Missing recommended library: libGL.so
+
+Installing the CUDA Samples in /opt/cuda55samples ...
+Copying samples to /opt/cuda55samples/NVIDIA_CUDA-5.5_Samples now...
+Finished copying samples.
+
+===========
+= Summary =
+===========
+
+Driver:   Not Selected
+Toolkit:  Installed in /opt/cuda55
+Samples:  Installed in /opt/cuda55samples, but missing recommended libraries
+
+* Please make sure your PATH includes /opt/cuda55/bin
+
+* Please make sure your LD_LIBRARY_PATH
+*   for 32-bit Linux distributions includes /opt/cuda55/lib
+*   for 64-bit Linux distributions includes /opt/cuda55/lib64:/lib
+* OR
+*   for 32-bit Linux distributions add /opt/cuda55/lib
+*   for 64-bit Linux distributions add /opt/cuda55/lib64 and /lib
+* to /etc/ld.so.conf and run ldconfig as root
+
+* To uninstall CUDA, remove the CUDA files in /opt/cuda55
+* Installation Complete
+
+Please see CUDA_Getting_Started_Linux.pdf in /opt/cuda55/doc/pdf for detailed information on setting up CUDA.
+
+***WARNING: Incomplete installation! This installation did not install the CUDA Driver. A driver of version at least 319.00 is required for CUDA 5.5 functionality to work.
+To install the driver using this installer, run the following command, replacing <CudaInstaller> with the name of this run file:
+    sudo <CudaInstaller>.run -silent -driver
+
+Logfile is /tmp/cuda_install_3988.log
